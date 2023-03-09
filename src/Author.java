@@ -11,7 +11,7 @@ public class Author {
     public void setAuthorName(String authorName) {
         this.authorName = authorName;
     }
-    public void setAuthor(String author) {
+    public void setAuthorLastName(String author) {
         this.authorLastName = authorLastName;
     }
     public String getAuthorName() {

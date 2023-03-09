@@ -1,7 +1,7 @@
 import java.util.Objects;
 
 public class Book {
-      private int year;
+    private int year;
     private String name;
     private Author author;
 
@@ -23,11 +23,12 @@ public class Book {
         this.name = name;
     }
 
-       public void setYear(int year) {
+    public void setYear(int year) {
         this.year = year;
     }
+
     public String toString() {
-        return "Автор -" + author.getAuthorName() + " " + author.getAuthorLastName() + ". Название книги - " + name + ". Год издания " + year;
+        return author + ". Название книги - " + name + ". Год издания " + year;
     }
 
     @Override
