@@ -6,6 +6,7 @@ public class Main {
         Book book2 = new Book(author2, 1878, "Анна Каренина");
         Book book3 = new Book(author2, 1878, "Анна Каренина");
         System.out.println("book1 = " + book1);
+        System.out.println("book2 = " + book2);
         System.out.println(book2.hashCode());
         System.out.println("book2.equals(book3) = " + book2.equals(book3));
     }
